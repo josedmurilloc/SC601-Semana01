@@ -161,6 +161,8 @@
     <Content Include="Views\EventHandling.aspx" />
     <Content Include="InheritanceProperties.aspx" />
     <Content Include="Views\Person.aspx" />
+    <Content Include="Views\QueryString.aspx" />
+    <Content Include="Views\ResponseQueryString.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
@@ -256,6 +258,20 @@
     </Compile>
     <Compile Include="Views\Person.aspx.designer.cs">
       <DependentUpon>Person.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QueryString.aspx.cs">
+      <DependentUpon>QueryString.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\QueryString.aspx.designer.cs">
+      <DependentUpon>QueryString.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ResponseQueryString.aspx.cs">
+      <DependentUpon>ResponseQueryString.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ResponseQueryString.aspx.designer.cs">
+      <DependentUpon>ResponseQueryString.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

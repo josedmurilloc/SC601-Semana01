@@ -28,18 +28,18 @@ namespace SC601_Semana01.Views
 
         private static readonly List<Models.Clients> clients = new List<Models.Clients>()
         {
-            new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
              new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
-              new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
-                       new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
              new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
-              new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
-                       new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
              new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
-              new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
-                       new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
              new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
-              new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
+             new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
+             new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
+             new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
+             new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
+             new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
+             new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
+             new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
+             new Models.Clients {ClientId=1, Name="Jose", LastName="Murillo", Email="j@gmail.com"},
         };
         public List<Models.Clients> ObtenerClientes()
         {

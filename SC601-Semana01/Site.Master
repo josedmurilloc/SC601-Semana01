@@ -57,7 +57,8 @@
                         <li><a runat="server" href="~/Views/EmbeddedCodeBlocks">EmbeddedCodeBlocks</a></li>
                         <li><a runat="server" href="~/Views/EventHandling">EventHandling</a></li>
                         <li><a runat="server" href="~/Views/InheritanceProperties">InheritanceProperties</a></li>
-                         <li><a runat="server" href="~/Views/Clients">Clients</a></li>
+                        <li><a runat="server" href="~/Views/Clients">Clients</a></li>
+                        <li><a runat="server" href="~/Views/QueryString.aspx">QueryString</a></li>
                     </ul>
                 </div>
             </div>
