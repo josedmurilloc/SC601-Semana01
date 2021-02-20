@@ -47,5 +47,15 @@ namespace BusinessModel
             }
 
         }
+
+        public static void AddCustomers(customers customers)
+        {
+            using (BikeStoresEntities db = new BikeStoresEntities())
+            {
+                db.customers.Add(customers);
+                db.SaveChanges();
+
+            }
+        }
     }
 }

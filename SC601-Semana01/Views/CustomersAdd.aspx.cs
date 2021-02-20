@@ -13,5 +13,31 @@ namespace SC601_Semana01.Views
         {
 
         }
+
+        protected void btnAdd_Click(object sender, EventArgs e)
+        {
+            string firstName = txtFirst_name.Text;
+            string lastName = txtLastName.Text;
+            string phone = txtPhone.Text;
+            string email = txtEmail.Text;
+            string street = txtStreet.Text;
+            string city = txtCity.Text;
+            string state = txtState.Text;
+            string zip_code = txtZipCode.Text;
+
+            var customers = new DataAccess.customers
+            {
+                first_name = firstName,
+                last_name = lastName,
+                phone = phone,
+                email = email,
+                street = street,
+                city = city,
+                state = state,
+                zip_code = zip_code
+            };
+            BusinessModel.Customers.AddCustomers(customers);
+            Response.Write("<script>alert('Data has been Added..');window.location = 'Customers.aspx';</script>");
+        }
     }
 }

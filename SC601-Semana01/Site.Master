@@ -60,6 +60,7 @@
                         <li><a runat="server" href="~/Views/Clients">Clients</a></li>
                         <li><a runat="server" href="~/Views/QueryString.aspx">QueryString</a></li>
                         <li><a runat="server" href="~/Views/Customers.aspx">Customers</a></li>
+                        <li><a runat="server" href="~/Views/Arrays.aspx">Arrays</a></li>
                     </ul>
                 </div>
             </div>

@@ -163,6 +163,7 @@
     <Content Include="Site.Master" />
     <Content Include="Properties1.ascx" />
     <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Views\Arrays.aspx" />
     <Content Include="Views\Clients.aspx" />
     <Content Include="Views\Customers.aspx" />
     <Content Include="Views\CustomersAdd.aspx" />
@@ -232,6 +233,13 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Arrays.aspx.cs">
+      <DependentUpon>Arrays.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Arrays.aspx.designer.cs">
+      <DependentUpon>Arrays.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Clients.aspx.cs">
       <DependentUpon>Clients.aspx</DependentUpon>
